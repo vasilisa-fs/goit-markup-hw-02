@@ -1,8 +1,6 @@
 body {
   background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
-  line-height: 1.5;
-  letter-spacing: 2%;
 }
 ul,
 ol {
@@ -12,64 +10,93 @@ a {
   text-decoration: none;
 }
 /* Header */
-.navigate-logo {
+/*Logo*/
+.top-navigate-logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+.top-logo-word {
   color: #4d5ae5;
 }
-.navigate-link {
-  font-size: 18px;
-  font-family: 'Raleway', sans-serif;
+/*Navigation*/
+.navigation-link {
   color: #2e2f42;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-.navigate-list {
   font-weight: 500;
-  color: #2e2f42;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-.contact {
-  font-style: normal;
+.navigation-link:hover,
+.navigation-link:focus {
+  color: #4d5ae5;
 }
+
+/*Contact*/
+
 .contact-list-link {
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 .contact-list-link:hover,
 .contact-list-link:focus {
   color: #404bbf;
 }
+
 /* Main*/
-/* Article*/
+/* First section Article*/
 .article {
   background-color: #2e2f42;
 }
 .article-title {
   color: #ffffff;
-  font-weight: 700;
   font-size: 56px;
   text-align: center;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
 }
+
 .article-interactive {
   cursor: pointer;
   color: #ffffff;
   background-color: #4d5ae5;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 .article-interactive:hover {
   background-color: #404bbf;
 }
-/*Benefits*/
-.benefits-title {
+
+/*Second section Benefits*/
+.benefits-list-title {
   font-size: 20px;
   color: #2e2f42;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
-.benefits-text {
+.benefits-list-text {
   color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
+
+/* Third section Team*/
 .team {
   background-color: #f4f4fd;
 }
 .team-title {
   font-size: 36px;
-  text-align: center;
   color: #2e2f42;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 .team-cards-item {
   background-color: #ffffff;
@@ -78,7 +105,37 @@ a {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 .team-cards-text {
   color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+/*Footer*/
+.bottom {
+  background-color: #2e2f42;
+}
+.bottom-logo {
+  font-family: 'Raleway', sans-serif;
+  color: #f4f4fd;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.bottom-logo-word {
+  color: #4d5ae5;
+}
+
+.bottom-text {
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
