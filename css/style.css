@@ -115,6 +115,27 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
 }
+/* Forth section Portfolio*/
+.portfolio-title {
+  font-size: 36px;
+  color: #2e2f42;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.portfolio-cards-name {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.portfolio-cards-text {
+  color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 
 /*Footer*/
 .bottom {
