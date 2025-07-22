@@ -1,6 +1,7 @@
 body {
   background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
+  color: #434455;
 }
 ul,
 ol {
@@ -13,14 +14,15 @@ a {
 /*Logo*/
 .top-navigate-logo {
   font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 .top-logo-word {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 /*Navigation*/
 .navigation-link {
@@ -32,13 +34,14 @@ a {
 }
 .navigation-link:hover,
 .navigation-link:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 /*Contact*/
-
-.contact-list-link {
+address {
   font-style: normal;
+}
+.contact-list-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
@@ -57,7 +60,7 @@ a {
   color: #ffffff;
   font-size: 56px;
   text-align: center;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
 }
 
@@ -69,7 +72,8 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
-.article-interactive:hover {
+.article-interactive:hover,
+.article-interactive:focus {
   background-color: #404bbf;
 }
 
@@ -92,9 +96,10 @@ a {
   background-color: #f4f4fd;
 }
 .team-title {
+  text-transform: capitalize;
   font-size: 36px;
   color: #2e2f42;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
 }
@@ -117,9 +122,10 @@ a {
 }
 /* Forth section Portfolio*/
 .portfolio-title {
+  text-transform: capitalize;
   font-size: 36px;
   color: #2e2f42;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
 }
@@ -143,16 +149,16 @@ a {
 }
 .bottom-logo {
   font-family: 'Raleway', sans-serif;
-  color: #f4f4fd;
+  color: #4d5ae5;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .bottom-logo-word {
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 
 .bottom-text {
